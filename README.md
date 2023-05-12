@@ -23,8 +23,8 @@
 
     How it works
     ------------
-    1. The program takes user input for the number of processes, names of processes, number of resources, and names of resources.
-    2. The program then takes user input for the allocated values and maximum needed values for each process and resource.
+    1. The program takes user input for the number of processes, names of processes, number of resources, and names of resources GUI.
+    2. The program then takes user input for the allocated values and maximum needed values for each process and resource Terminal.
     3. The program calculates the needed values based on the allocated and maximum values.
     4. The program checks for a safe sequence using the Banker's algorithm.
     5. If a safe sequence is found, the program executes the processes in the safe sequence.
@@ -33,10 +33,15 @@
     
     example of inputs
     -----------------
+    
+    *IN GUI*
     Enter The Number Of The Process : 3
     Enter The Name Of The Process : A B C (You must write them sebartly)
     Enter The Number of resourc : 2
     Enter The name of resource : X Y (You must write them sebartly)
+    
+    Press okay in the pop up Message
+    *Continue in Terminal*
     
     For process  a =>
     0 1 0
@@ -56,7 +61,3 @@
     3 3 2
     There is no Safe sequence  
     c a  Process can't be executed
-
-  
-
-    """
